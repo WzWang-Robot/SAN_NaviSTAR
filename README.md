@@ -39,12 +39,12 @@ python demonstration_api.py --vis
 
 1. Train a policy with preference learning. 
 ```
-python train_FAPL.py 
+python train_NaviSTAR.py 
 ```
 
 2. Test a policy.
 ```
-python test_FAPL.py
+python test_NaviSTAR.py
 ```
 
 3. Plot training curves.

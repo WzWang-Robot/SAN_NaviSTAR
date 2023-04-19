@@ -56,10 +56,10 @@ python plot.py
 
 ## Simulation Environment
 
-The simulation environment is a 22 m × 20 m two-dimensional space, and the yellow circle indicates the robot. The blue dotted line illustrates the robot FoV, humans that can be detected by the robot are green circles while those out of robot view are red circles. The red star is the robot goal, and the orientation and number of each agent are presented as a red arrow and a black number respectively.
+We also conducted real-world tests with 8 participants(1 female and 7 males, all aged over 18). The robot and participants followed the same behavior policy, starting point,and end goal in each test, and the planner of the robot was unknown and randomized for participants.
 
 <div align=center>
-<img src="/figures/perception.png" width="300" />
+<img src="/figures/perception.png" width="800" />
 </div>  
 
 ## Learning Curve

@@ -1,5 +1,5 @@
 # SAN-NaviSTAR
-This repository contains the source code for our paper: "NaviSTAR: Socially Aware Robot Navigation with Hybrid Spatio-Temporal Graph Transformer and Preference Learning", accepted to IROS-2023.
+This repository contains the source code for our paper: "NaviSTAR: Socially Aware Robot Navigation with Hybrid Spatio-Temporal Graph Transformer and Preference Learning", submitted to IROS-2023.
 For more details, please refer to [our project website](https://sites.google.com/view/san-navistar).
 
 
@@ -12,6 +12,7 @@ Developing robotic technologies for use in human society requires ensuring the s
 <div align=center>
 <img src="/figures/Architecture.jpg" width="800" />
 </div>  
+The NaviSTAR is composed of two parts: 1) Spatial Temporal Graph Transforemer Block, and 2) Multi-Modal Transformer Block. And NaviSTAR utilizes a spatial-temporal graph transformer block and a multi-modal transformer block to abstract environmental dynamics and human-robot interactions into an ST-graph for safe path planning in crowd-flled environments. The spatial transformer is designed to capture hybrid spatial interactions and generate spatial attention maps, while the temporal transformer presents long-term temporal dependencies and creates temporal attention maps. The multi-modal transformer is deployed to adapt to the uncertainty of multi-modality crowd movements, aggregating all heterogeneous spatial and temporal features. Finally, the planner generates the next timestep action by a decoder.
 
 
 

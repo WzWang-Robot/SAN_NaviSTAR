@@ -78,7 +78,7 @@ Contributors:
 
 Part of the code is based on the following repositories:  
 
-[CrowdNav](https://github.com/vita-epfl/CrowdNav); [FAPL](https://github.com/SMARTlab-Purdue/SAN-FAPL); and [B_Pref](https://github.com/rll-research/B_Pref).
+[SARL](https://github.com/vita-epfl/CrowdNav); [FAPL](https://github.com/SMARTlab-Purdue/SAN-FAPL); and [B_Pref](https://github.com/rll-research/B_Pref).
 
 
 

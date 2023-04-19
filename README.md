@@ -10,7 +10,7 @@ Developing robotic technologies for use in human society requires ensuring the s
 
 ## Overview Architecture for NaviSTAR
 <div align=center>
-<img src="/figures/architecture.png" width="800" />
+<img src="/figures/Architecture.jpg" width="800" />
 </div>  
 
 
@@ -59,7 +59,7 @@ python plot.py
 The simulation environment is a 22 m × 20 m two-dimensional space, and the yellow circle indicates the robot. The blue dotted line illustrates the robot FoV, humans that can be detected by the robot are green circles while those out of robot view are red circles. The red star is the robot goal, and the orientation and number of each agent are presented as a red arrow and a black number respectively.
 
 <div align=center>
-<img src="/figures/environment.jpg" width="300" />
+<img src="/figures/perception.png" width="300" />
 </div>  
 
 ## Learning Curve

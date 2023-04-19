@@ -1,6 +1,6 @@
-# SAN-FAPL
-This repository contains the source code for our paper: "Feedback-efficient Active Preference Learning for Socially Aware Robot Navigation", accepted to IROS-2022.
-For more details, please refer to [our project website](https://sites.google.com/view/san-fapl).
+# SAN-NaviSTAR
+This repository contains the source code for our paper: "NaviSTAR: Socially Aware Robot Navigation with Hybrid Spatio-Temporal Graph Transformer and Preference Learning", accepted to IROS-2023.
+For more details, please refer to [our project website](https://sites.google.com/view/san-navistar).
 
 
 ## Abstract
@@ -8,7 +8,7 @@ Developing robotic technologies for use in human society requires ensuring the s
 
 
 
-## Overview Architecture for FAPL
+## Overview Architecture for NaviSTAR
 <div align=center>
 <img src="/figures/architecture.png" width="800" />
 </div>  

@@ -71,22 +71,22 @@ We also conducted real-world tests with 8 participants(1 female and 7 males, all
 ## Citation
 If you find the code or the paper useful for your research, please cite our paper:
 ```
-@article{wang2022feedback,
-  title={Feedback-efficient Active Preference Learning for Socially Aware Robot Navigation},
-  author={Wang, Ruiqi and Wang, Weizheng and Min, Byung-Cheol},
-  journal={arXiv preprint arXiv:2201.00469},
-  year={2022}
+@article{wang2023navistar,
+  title={NaviSTAR: Socially Aware Robot Navigation with Hybrid Spatio-Temporal Graph Transformer and Preference Learning},
+  author={Wang, Weizheng and Wang, Ruiqi and Mao, Le and Min, Byung-Cheol},
+  journal={arXiv preprint arXiv:2304.05979},
+  year={2023}
 }
 ```
 
 ## Acknowledgement
 
 Contributors:  
-[Weizheng Wang](https://github.com/WzWang-Robot/FAPL); [Ruiqi Wang](https://github.com/R7-Robot?tab=repositories).
+[Weizheng Wang](https://github.com/WzWang-Robot/FAPL); [Ruiqi Wang](https://github.com/R7-Robot?tab=repositories);[Le Mao].
 
 Part of the code is based on the following repositories:  
 
-[CrowdNav](https://github.com/vita-epfl/CrowdNav); [DSRNN_CrowdNav](https://github.com/Shuijing725/CrowdNav_DSRNN); and [B_Pref](https://github.com/rll-research/B_Pref).
+[CrowdNav](https://github.com/vita-epfl/CrowdNav); [FAPL](https://github.com/SMARTlab-Purdue/SAN-FAPL); and [B_Pref](https://github.com/rll-research/B_Pref).
 
 
 

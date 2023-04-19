@@ -62,10 +62,10 @@ We also conducted real-world tests with 8 participants(1 female and 7 males, all
 <img src="/figures/perception.png" width="800" />
 </div>  
 
-## Learning Curve
+## Simulation tests
 
 <div align=center>
-<img src="/figures/curve_sr.png" width="450" /> <img src="/figures/curve_df.png" width="450" />
+<img src="/figures/results.png" width="800" /> 
 </div>  
 
 ## Citation

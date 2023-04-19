@@ -33,10 +33,6 @@ pip install -e .
 
 
 ## Run the code
-0. Develop expert demonstrations in hybrid experience learning.
-```
-python demonstration_api.py --vis
-```
 
 1. Train a policy with preference learning. 
 ```
@@ -46,11 +42,6 @@ python train_NaviSTAR.py
 2. Test a policy.
 ```
 python test_NaviSTAR.py
-```
-
-3. Plot training curves.
-```
-python plot.py
 ```
 
 (The code was tested in Ubuntu 18.04 with Python 3.6.)
@@ -83,7 +74,7 @@ If you find the code or the paper useful for your research, please cite our pape
 ## Acknowledgement
 
 Contributors:  
-[Weizheng Wang](https://github.com/WzWang-Robot/FAPL); [Ruiqi Wang](https://github.com/R7-Robot?tab=repositories);Le Mao.
+[Weizheng Wang](https://github.com/WzWang-Robot/FAPL); [Ruiqi Wang](https://github.com/R7-Robot?tab=repositories); Le Mao.
 
 Part of the code is based on the following repositories:  
 

@@ -54,7 +54,7 @@ python plot.py
 
 (The code was tested in Ubuntu 18.04 with Python 3.6.)
 
-## Simulation Environment
+## Real-world Experiment
 
 We also conducted real-world tests with 8 participants(1 female and 7 males, all aged over 18). The robot and participants followed the same behavior policy, starting point,and end goal in each test, and the planner of the robot was unknown and randomized for participants.
 

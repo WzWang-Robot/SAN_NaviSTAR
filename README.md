@@ -3,6 +3,9 @@
 
 For information, please refer to [our website](https://sites.google.com/view/san-navistar).
 
+Correspondence to: 
+  - Weizheng Wang (wang5716@purdue.edu)
+
 ## Abstract
 Developing robotic technologies for use in human society requires ensuring the safety of robots' navigation behaviors while adhering to pedestrians' expectations and social norms. 
 However, understanding complex human-robot interactions (HRI) to infer potential cooperation and response among robots and pedestrians for cooperative collision avoidance is challenging. 
@@ -11,6 +14,31 @@ We leverage an off-policy reinforcement learning algorithm with preference learn
 To compare, we train and test our algorithm with other state-of-the-art methods in both simulator and real-world scenarios independently. Our results show that NaviSTAR outperforms previous methods with outstanding performance.
 
 <img src="figures/architecture.png" width="1000" />
+
+## Related Works
+[1]. (Under Review) SALM: Unifying Large Language Model and Deep Reinforcement Learning for Human-in-Loop Interactive Socially-aware Navigation
+
+https://https//arxiv.org/pdf/
+
+[2]. (Under Review) SAMALM: Multi-Agent LLM Actor-Critic Framework for Social Robot Navigation
+
+https://https//arxiv.org/pdf/
+
+[3]. (ICRA-2025) NaviDIFF: Human-Robot Cooperative Distribution Coupling for Hamiltonian-Constrained Social Navigation
+
+https://arxiv.org/pdf/2409.13573
+
+[4]. (ICRA-2025) Hyper-SAMARL: Hypergraph-based Coordinated Task Allocation and Socially-aware Navigation for Multi-Robot Systems
+
+https://arxiv.org/pdf/2409.11561
+
+[5]. (ICRA-2024) SAMARL: Multi-Robot Cooperative Socially-Aware Navigation Using Multi-Agent Reinforcement Learning 
+
+https://arxiv.org/pdf/2309.15234
+
+[6]. (IROS-2022) FAPL: Feedback-efficient Active Preference Learning for Socially Aware Robot Navigation
+
+https://ieeexplore.ieee.org/document/9981616
 
 ## Requirement
 
@@ -46,6 +74,8 @@ python train_sac.py
 ```
 Training model will be saved in [data/navigation](data/navigation)
 
+Our pre-trained model (NaviSTAR) was saved in [data/navigation/star_sac](data/navigation/star_sac)
+
 ## Evaluating
 To evaluate the model performance, please run:
 ```
@@ -57,15 +87,9 @@ python test_sac.py
 ```
 
 ## Render
-Please run:
-```
-python render.py
-```
-or
-```
-python render_sac.py
-```
-`.gif`file will be saved in [gif](gif)
+`.gif`files were saved in [gif](gif)
+
+The visulaization cases of NaviSTAR were saved in [gif/star_sac](gif/star_sac)
 
 
 ## Citation
@@ -86,4 +110,4 @@ If you find this repository useful, please cite our [paper](https://ieeexplore.i
 This code partly bases on [DSRNN](https://github.com/Shuijing725/CrowdNav_DSRNN), [SAC](https://github.com/denisyarats/pytorch_sac). We thank the authors for releasing their code.
 
 ## Contributors
-Le Mao, [Weizheng Wang](https://github.com/WzWang-Robot), and [Byung-Cheol Min](https://web.ics.purdue.edu/%7Eminb/)
+[Weizheng Wang](https://github.com/WzWang-Robot), Le Mao, and [Byung-Cheol Min](https://web.ics.purdue.edu/%7Eminb/)
